@@ -1,3 +1,7 @@
+.bold {
+  font-weight: bold;
+}
+
 .header {
   background-color: #F55A5A;
   color: #FFFFFF;
@@ -25,15 +29,45 @@
 .entry {
   display: flex;
   width: 75%;
+
+  margin: 15px;
+}
+
+.entry > a {
+  color: #918E9B;
 }
 
 .entry--img {
-  width: 150px;
-  height: 200px;
+  width: 200px;
   object-fit: cover;
+  border-radius: 5px;
+}
+
+.entry--pin-icon {
+  width: 10px;
+}
+
+.entry--location > a {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #918E9B;
+}
+
+.entry--location--country {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-left: 5px;
 }
 
 .entry--information {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+  padding: 15px 0;
+}
+
+.entry--title {
+  font-size: 32px;
 }
