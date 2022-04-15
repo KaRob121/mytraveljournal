@@ -12,7 +12,7 @@ function JournalEntry(props) {
           <span>
             <img src={ pin }/>
             { props.entry.location }
-            <a href={`${ props.entry.imageUrl }`}>View on Google Maps</a>
+            <a href={`${ props.entry.googleMapsUrl }`}>View on Google Maps</a>
           </span>
         </div>
         <h1>{ props.entry.title }</h1>
