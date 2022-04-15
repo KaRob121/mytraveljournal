@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      { info }
+      <div className="entries-list">
+        { info }
+      </div>
     </div>
   );
 }
